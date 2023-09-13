@@ -110,3 +110,21 @@ while multiplicador < 11:
 numeros = range(99,0,-2)
 lista = list(numeros)
 print(lista)
+
+# **Teste o Random:**
+
+import random as r
+
+#1 - Crie um número aleatório de 10, 5
+numero = r.random()
+print(numero)
+
+#2 - Crie 3 números aleatórios
+number1 = r.randint(1,25)
+number2 = r.randint(1,25)
+number3 = r.randint(1,25)
+print("Os 3 números aleatórios gerados foram: " + str(number1) + ", " + str(number2) + ", " + str(number3))
+
+#3 - Crie um número aleatório entre 10 e 30 utilize o range()
+number4 = r.randrange(10,30)
+print(number4)
